@@ -1,0 +1,143 @@
+
+html,body {
+  padding: 100px;
+  height: 100%;
+  background-color: #E0E0E0;
+  padding-left: 350px;
+}
+.App{
+   border: 1px solid black;
+   width: 500px;
+   height: 380px;
+   background-color: white;
+   position: fixed;
+   padding-top: 50px;
+   padding-left: 100px;
+   margin-left: -17px;
+}
+.container{
+  width: 400px;
+  border: 1px solid #DCDCDC;
+  margin: 0 auto;
+  display: inline-flex;
+  height: 290px;
+  margin-top: 20px;
+}
+
+.contactlink{
+   text-decoration: none;
+}
+.contactlink:link    {color:#000;}
+.contactlink:visited {color:#000;}
+.contactlink:hover   {color:#000;}
+.contactlink:active  {color:#000;}
+
+div.contactList {
+  background-color: #DCDCDC;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.info{
+  font-size: 13px;
+}
+
+div.contact {
+  position: relative;
+  padding: 20px 20px;
+  border-top: 1px solid #bebebe;
+  font-weight: 100;
+  width: 100px;
+  text-align:center;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.contact:hover{
+  background-color: #A0A0A0;
+}
+.editForm {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+.layout {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.formSubmit{
+    width: 100%;
+    background-color: black;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+.formLabel{
+  font-size: 15px;
+}
+.fromSubmit:hover {
+    background-color: white;
+}
+.close-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  float:right;
+  margin-top: -40px;
+  margin-right: -40px;
+  border: 1px solid white;
+  outline: none;
+}
+
+
+.search{
+  border: 4px solid white;
+  padding-bottom: 5px;
+  border-top: 7px solid white;
+  width: 100px;
+  display: block;
+  float: left;
+  outline: none;
+}
+.title{
+  font-size: 12px;
+  text-align: center;
+}
+div.contactInfo{
+   font-size: 12px;
+   padding-left: 30px;
+   padding-right: 10px;
+   flex : 1;
+   background-color: #F0F0F0;
+}
+.submit{
+   width: 30px;
+   height: 30px;
+   border: none;
+   font-size: 16px;
+   outline: none;
+   background-color: #BEBEBE;
+}
+.button:hover{
+  background-color: #A0A0A0;
+}
+.button{
+  border: 1px solid #BEBEBE;
+  height: 20px;
+  width: 50px;
+  background-color:#BEBEBE;
+  outline: none;
+}
